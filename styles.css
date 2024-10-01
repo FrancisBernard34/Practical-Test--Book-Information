@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Tahoma', sans-serif;
+  background-color: #F5F5F5;
+}
+
+hr {
+  border-color: #D5D5D5;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 50px;
+  width: 100%;
+  height: 100%;
+}
+
+section > h1,
+section > h2,
+section > h3,
+span {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  background-color: #49B970;
+  color: #F5F5F5;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+.book-synopsis h1 {
+  font-size: 32px;
+  text-transform: capitalize;
+}
+
+.book-synopsis img {
+  width: 190px;
+  margin: 20px 0;
+}
+
+.book-synopsis h2 {
+  font-size: 24px;
+}
+
+.book-synopsis p {
+  font-size: 16px;
+  margin: 15px auto 30px auto;
+  width: 930px;
+}
+
+.book-description h3 {
+  font-size: 18px;
+}
+
+.book-description p {
+  font-size: 16px;
+  margin: 15px auto 30px auto;
+  width: 930px;
+}
+
+.book-author h3{
+  font-size: 18px;
+}
+
+.book-author img {
+  margin: 20px 0;
+  width: 190px;
+}
+
+.book-author p {
+  font-size: 16px;
+  margin: 15px auto 30px auto;
+  width: 930px;
+}
+
+.book-details p {
+  font-size: 16px;
+  margin: 15px auto 30px auto;
+  width: 930px;
+}
+
+.book-details p:nth-child(2) {
+  font-weight: bold;
+}

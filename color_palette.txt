@@ -1,0 +1,4 @@
+#000000
+#F5F5F5 (branco)
+#D5D5D5 (cinza)
+#49B970 (verde)
